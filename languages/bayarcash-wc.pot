@@ -1,0 +1,106 @@
+# Copyright (C) 2024 Web Impian Sdn Bhd
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bayarcash for Easy Digital Downloads 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bayarcash-for-easy-digital-downloads\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-06T09:03:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: bayarcash-for-easy-digital-downloads\n"
+
+#. Plugin Name of the plugin
+#: bayarcash-for-easy-digital-downloads.php
+msgid "Bayarcash for Easy Digital Downloads"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: bayarcash-for-easy-digital-downloads.php
+msgid "https://bayarcash.com"
+msgstr ""
+
+#. Description of the plugin
+#: bayarcash-for-easy-digital-downloads.php
+msgid "Integrate Bayarcash payment solutions with your Easy Digital Downloads store."
+msgstr ""
+
+#. Author of the plugin
+#: bayarcash-for-easy-digital-downloads.php
+msgid "Web Impian Sdn Bhd"
+msgstr ""
+
+#. Author URI of the plugin
+#: bayarcash-for-easy-digital-downloads.php
+msgid "https://webimpian.com"
+msgstr ""
+
+#: bayarcash-for-easy-digital-downloads.php:88
+msgid "Bayarcash"
+msgstr ""
+
+#: bayarcash-for-easy-digital-downloads.php:89
+msgid "Pay with Bayarcash"
+msgstr ""
+
+#: bayarcash-for-easy-digital-downloads.php:159
+msgid "Bayarcash gateway is active but not fully configured. Please configure the Bayarcash settings to enable the gateway."
+msgstr ""
+
+#: bayarcash-for-easy-digital-downloads.php:168
+msgid "Settings"
+msgstr ""
+
+#: bayarcash-for-easy-digital-downloads.php:170
+msgid "Documentation"
+msgstr ""
+
+#: bayarcash-for-easy-digital-downloads.php:182
+msgid "There is an error with the Bayarcash configuration."
+msgstr ""
+
+#: includes/bayarcash-edd-cron-requery.php:42
+msgid "Every Minute"
+msgstr ""
+
+#: includes/bayarcash-edd-cron-requery.php:133
+msgid "Payment completed via Bayarcash requery."
+msgstr ""
+
+#: includes/bayarcash-edd-cron-requery.php:134
+msgid "Payment still pending via Bayarcash requery."
+msgstr ""
+
+#: includes/bayarcash-edd-cron-requery.php:135
+msgid "Payment failed via Bayarcash requery."
+msgstr ""
+
+#: includes/bayarcash-edd-cron-requery.php:138
+msgid "Payment status updated via Bayarcash requery."
+msgstr ""
+
+#. translators: %s: Transaction ID
+#: includes/class-bayarcash-edd-payment-processor.php:139
+msgid "Bayarcash pre-transaction received. Transaction ID: %s"
+msgstr ""
+
+#: includes/class-bayarcash-edd-payment-processor.php:235
+msgid "Payment completed successfully via Bayarcash. Details:"
+msgstr ""
+
+#. translators: 1: Status, 2: Description
+#: includes/class-bayarcash-edd-payment-processor.php:256
+msgid "Payment failed. Status: %1$s, Description: %2$s"
+msgstr ""
+
+#: includes/class-bayarcash-edd-payment-processor.php:261
+msgid "Payment failed via Bayarcash. Details:"
+msgstr ""
+
+#: includes/class-bayarcash-edd-payment-processor.php:261
+msgid "Error Description: "
+msgstr ""

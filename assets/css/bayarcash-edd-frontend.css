@@ -1,0 +1,73 @@
+/* Bayarcash Payment Box */
+.bayarcash-payment-box {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Payment Option */
+.bayarcash-payment-option {
+    border-bottom: 1px solid #ddd;
+}
+
+.bayarcash-payment-option:last-child {
+    border-bottom: none;
+}
+
+.bayarcash-payment-option input[type="radio"] {
+    display: none;
+}
+
+/* Payment Option Wrapper */
+.bayarcash-payment-option-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.bayarcash-payment-option input[type="radio"]:checked + .bayarcash-payment-option-wrapper {
+    background-color: #e0e0e0;
+}
+
+/* Payment Option Label */
+.bayarcash-payment-option label {
+    flex-grow: 1;
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* Payment Option Image */
+.bayarcash-payment-option-image {
+    padding: 10px 0;
+    width: 200px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+/* Payment Details */
+.bayarcash-payment-details {
+    display: none;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+#edd_purchase_form_wrap > div > div:nth-child(3) > div.bayarcash-payment-option-wrapper > img{
+     width: 130px;
+}
+
+.bayarcash-payment-option input[type="radio"]:checked + .bayarcash-payment-option-wrapper + .bayarcash-payment-details {
+    display: block;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+.bayarcash-payment-option-image {
+    width: 150px;
+}
+                     
+#edd_purchase_form_wrap > div > div:nth-child(3) > div.bayarcash-payment-option-wrapper > img {
+        width: 100px;
+    }
+}

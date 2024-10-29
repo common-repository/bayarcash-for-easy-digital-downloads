@@ -1,0 +1,21 @@
+#bayarcash-verify-wrapper {
+    margin-top: 10px;
+}
+
+#bayarcash-verify-status {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#bayarcash-verify-status.valid {
+    color: green;
+}
+
+#bayarcash-verify-status.invalid {
+    color: red;
+}
+
+#bayarcash-merchant-name {
+    margin-top: 10px;
+    font-style: italic;
+}
